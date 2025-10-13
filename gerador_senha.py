@@ -1,6 +1,11 @@
 import random
 
 def gerar_senha(comprimento, usar_letras, usar_numeros, usar_simbolos):
+    
+    # Definição dos grupos de caracteres 
+    letras = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    numeros = '0123456789'
+    simbolos = '!@#$%^&*()-_+=[]{}|;:,.<>?'
     return
 
 def iniciar_gerador():
